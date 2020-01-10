@@ -1,0 +1,11 @@
+#  配置
+#    在 application.yml 配置文件中添加 H2 数据库的相关配置：
+#
+#  # DataSource Config
+  spring:
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: 333
+
